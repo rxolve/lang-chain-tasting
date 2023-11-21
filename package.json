@@ -1,0 +1,39 @@
+{
+  "name": "lang-chain-tasting",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "license": "AGPL-version-3.0",
+  "private": false,
+  "engines": {
+    "node": ">= 14.0.0",
+    "npm": ">= 6.0.0"
+  },
+  "homepage": "",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "bugs": "",
+  "keywords": [],
+  "author": {
+    "name": "rxolve",
+    "email": "rxolve@gmail.com"
+  },
+  "contributors": [],
+  "scripts": {
+    "build": "tsc",
+    "start": "node ./dist/index.js",
+    "dev": "ts-node --esm ./src/index.ts"
+  },
+  "dependencies": {
+    "@types/node": "^20.9.3",
+    "dotenv": "^16.3.1",
+    "langchain": "^0.0.195",
+    "typescript": "^5.3.2"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.1"
+  }
+}
